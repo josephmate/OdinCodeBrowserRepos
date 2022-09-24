@@ -324,7 +324,7 @@
 </tr>
 <tr>
 <td><a id="linenum80" class="linenum-cell" data-linenum="80" href="#linenum80"></a></td>
-<td><pre>    public static &lt;T&gt; <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum957">T</a> invokeConstructor(final <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/Class.html#linenum119">Class</a>&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum957">T</a>&gt; cls, <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/Object.html#linenum37">Object</a>... args)</pre></td>
+<td><pre>    public static &lt;T&gt; <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum1255">T</a> invokeConstructor(final <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/Class.html#linenum119">Class</a>&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum1255">T</a>&gt; cls, <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/Object.html#linenum37">Object</a>... args)</pre></td>
 </tr>
 <tr>
 <td><a id="linenum81" class="linenum-cell" data-linenum="81" href="#linenum81"></a></td>
@@ -436,7 +436,7 @@
 </tr>
 <tr>
 <td><a id="linenum108" class="linenum-cell" data-linenum="108" href="#linenum108"></a></td>
-<td><pre>    public static &lt;T&gt; <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum957">T</a> invokeConstructor(final <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/Class.html#linenum119">Class</a>&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum957">T</a>&gt; cls, <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/Object.html#linenum37">Object</a>[] args, <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/Class.html#linenum119">Class</a>&lt;?&gt;[] parameterTypes)</pre></td>
+<td><pre>    public static &lt;T&gt; <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum1255">T</a> invokeConstructor(final <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/Class.html#linenum119">Class</a>&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum1255">T</a>&gt; cls, <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/Object.html#linenum37">Object</a>[] args, <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/Class.html#linenum119">Class</a>&lt;?&gt;[] parameterTypes)</pre></td>
 </tr>
 <tr>
 <td><a id="linenum109" class="linenum-cell" data-linenum="109" href="#linenum109"></a></td>
@@ -448,15 +448,15 @@
 </tr>
 <tr>
 <td><a id="linenum111" class="linenum-cell" data-linenum="111" href="#linenum111"></a></td>
-<td><pre>        <a class="variable" href="#linenum108">args</a> = ArrayUtils.<a class="type" href="/OdinCodeBrowserRepos/commons-lang3_3.11/org/apache/commons/lang3/ArrayUtils.html#linenum4613">nullToEmpty</a>(<a class="variable" href="#linenum108">args</a>);</pre></td>
+<td><pre>        <a class="variable" href="#linenum108">args</a> = ArrayUtils.<a class="type" href="/OdinCodeBrowserRepos/commons-lang3_3.11/org/apache/commons/lang3/ArrayUtils.html#linenum4228">nullToEmpty</a>(<a class="variable" href="#linenum108">args</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum112" class="linenum-cell" data-linenum="112" href="#linenum112"></a></td>
-<td><pre>        <a class="variable" href="#linenum108">parameterTypes</a> = ArrayUtils.<a class="type" href="/OdinCodeBrowserRepos/commons-lang3_3.11/org/apache/commons/lang3/ArrayUtils.html#linenum4613">nullToEmpty</a>(<a class="variable" href="#linenum108">parameterTypes</a>);</pre></td>
+<td><pre>        <a class="variable" href="#linenum108">parameterTypes</a> = ArrayUtils.<a class="type" href="/OdinCodeBrowserRepos/commons-lang3_3.11/org/apache/commons/lang3/ArrayUtils.html#linenum4228">nullToEmpty</a>(<a class="variable" href="#linenum108">parameterTypes</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum113" class="linenum-cell" data-linenum="113" href="#linenum113"></a></td>
-<td><pre>        final <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/reflect/Constructor.html#linenum60">Constructor</a>&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum957">T</a>&gt; ctor = <a class="type" href="/OdinCodeBrowserRepos/commons-lang3_3.11/org/apache/commons/lang3/reflect/ConstructorUtils.html#linenum245">getMatchingAccessibleConstructor</a>(<a class="variable" href="#linenum108">cls</a>, <a class="variable" href="#linenum108">parameterTypes</a>);</pre></td>
+<td><pre>        final <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/reflect/Constructor.html#linenum60">Constructor</a>&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum1255">T</a>&gt; ctor = <a class="type" href="/OdinCodeBrowserRepos/commons-lang3_3.11/org/apache/commons/lang3/reflect/ConstructorUtils.html#linenum245">getMatchingAccessibleConstructor</a>(<a class="variable" href="#linenum108">cls</a>, <a class="variable" href="#linenum108">parameterTypes</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum114" class="linenum-cell" data-linenum="114" href="#linenum114"></a></td>
@@ -580,7 +580,7 @@
 </tr>
 <tr>
 <td><a id="linenum144" class="linenum-cell" data-linenum="144" href="#linenum144"></a></td>
-<td><pre>    public static &lt;T&gt; <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum957">T</a> invokeExactConstructor(final <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/Class.html#linenum119">Class</a>&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum957">T</a>&gt; cls, <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/Object.html#linenum37">Object</a>... args)</pre></td>
+<td><pre>    public static &lt;T&gt; <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum1255">T</a> invokeExactConstructor(final <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/Class.html#linenum119">Class</a>&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum1255">T</a>&gt; cls, <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/Object.html#linenum37">Object</a>... args)</pre></td>
 </tr>
 <tr>
 <td><a id="linenum145" class="linenum-cell" data-linenum="145" href="#linenum145"></a></td>
@@ -692,7 +692,7 @@
 </tr>
 <tr>
 <td><a id="linenum172" class="linenum-cell" data-linenum="172" href="#linenum172"></a></td>
-<td><pre>    public static &lt;T&gt; <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum957">T</a> invokeExactConstructor(final <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/Class.html#linenum119">Class</a>&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum957">T</a>&gt; cls, <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/Object.html#linenum37">Object</a>[] args,</pre></td>
+<td><pre>    public static &lt;T&gt; <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum1255">T</a> invokeExactConstructor(final <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/Class.html#linenum119">Class</a>&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum1255">T</a>&gt; cls, <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/Object.html#linenum37">Object</a>[] args,</pre></td>
 </tr>
 <tr>
 <td><a id="linenum173" class="linenum-cell" data-linenum="173" href="#linenum173"></a></td>
@@ -704,15 +704,15 @@
 </tr>
 <tr>
 <td><a id="linenum175" class="linenum-cell" data-linenum="175" href="#linenum175"></a></td>
-<td><pre>        <a class="variable" href="#linenum172">args</a> = ArrayUtils.<a class="type" href="/OdinCodeBrowserRepos/commons-lang3_3.11/org/apache/commons/lang3/ArrayUtils.html#linenum4613">nullToEmpty</a>(<a class="variable" href="#linenum172">args</a>);</pre></td>
+<td><pre>        <a class="variable" href="#linenum172">args</a> = ArrayUtils.<a class="type" href="/OdinCodeBrowserRepos/commons-lang3_3.11/org/apache/commons/lang3/ArrayUtils.html#linenum4228">nullToEmpty</a>(<a class="variable" href="#linenum172">args</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum176" class="linenum-cell" data-linenum="176" href="#linenum176"></a></td>
-<td><pre>        <a class="variable" href="#linenum173">parameterTypes</a> = ArrayUtils.<a class="type" href="/OdinCodeBrowserRepos/commons-lang3_3.11/org/apache/commons/lang3/ArrayUtils.html#linenum4613">nullToEmpty</a>(<a class="variable" href="#linenum173">parameterTypes</a>);</pre></td>
+<td><pre>        <a class="variable" href="#linenum173">parameterTypes</a> = ArrayUtils.<a class="type" href="/OdinCodeBrowserRepos/commons-lang3_3.11/org/apache/commons/lang3/ArrayUtils.html#linenum4228">nullToEmpty</a>(<a class="variable" href="#linenum173">parameterTypes</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum177" class="linenum-cell" data-linenum="177" href="#linenum177"></a></td>
-<td><pre>        final <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/reflect/Constructor.html#linenum60">Constructor</a>&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum957">T</a>&gt; ctor = <a class="type" href="/OdinCodeBrowserRepos/commons-lang3_3.11/org/apache/commons/lang3/reflect/ConstructorUtils.html#linenum221">getAccessibleConstructor</a>(<a class="variable" href="#linenum172">cls</a>, <a class="variable" href="#linenum173">parameterTypes</a>);</pre></td>
+<td><pre>        final <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/reflect/Constructor.html#linenum60">Constructor</a>&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum1255">T</a>&gt; ctor = <a class="type" href="/OdinCodeBrowserRepos/commons-lang3_3.11/org/apache/commons/lang3/reflect/ConstructorUtils.html#linenum200">getAccessibleConstructor</a>(<a class="variable" href="#linenum172">cls</a>, <a class="variable" href="#linenum173">parameterTypes</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum178" class="linenum-cell" data-linenum="178" href="#linenum178"></a></td>
@@ -804,7 +804,7 @@
 </tr>
 <tr>
 <td><a id="linenum200" class="linenum-cell" data-linenum="200" href="#linenum200"></a></td>
-<td><pre>    public static &lt;T&gt; <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/reflect/Constructor.html#linenum60">Constructor</a>&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum957">T</a>&gt; getAccessibleConstructor(final <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/Class.html#linenum119">Class</a>&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum957">T</a>&gt; cls,</pre></td>
+<td><pre>    public static &lt;T&gt; <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/reflect/Constructor.html#linenum60">Constructor</a>&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum1255">T</a>&gt; getAccessibleConstructor(final <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/Class.html#linenum119">Class</a>&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum1255">T</a>&gt; cls,</pre></td>
 </tr>
 <tr>
 <td><a id="linenum201" class="linenum-cell" data-linenum="201" href="#linenum201"></a></td>
@@ -888,7 +888,7 @@
 </tr>
 <tr>
 <td><a id="linenum221" class="linenum-cell" data-linenum="221" href="#linenum221"></a></td>
-<td><pre>    public static &lt;T&gt; <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/reflect/Constructor.html#linenum60">Constructor</a>&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum957">T</a>&gt; getAccessibleConstructor(final <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/reflect/Constructor.html#linenum60">Constructor</a>&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum957">T</a>&gt; ctor) {</pre></td>
+<td><pre>    public static &lt;T&gt; <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/reflect/Constructor.html#linenum60">Constructor</a>&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum1255">T</a>&gt; getAccessibleConstructor(final <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/reflect/Constructor.html#linenum60">Constructor</a>&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum1255">T</a>&gt; ctor) {</pre></td>
 </tr>
 <tr>
 <td><a id="linenum222" class="linenum-cell" data-linenum="222" href="#linenum222"></a></td>
@@ -984,7 +984,7 @@
 </tr>
 <tr>
 <td><a id="linenum245" class="linenum-cell" data-linenum="245" href="#linenum245"></a></td>
-<td><pre>    public static &lt;T&gt; <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/reflect/Constructor.html#linenum60">Constructor</a>&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum957">T</a>&gt; getMatchingAccessibleConstructor(final <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/Class.html#linenum119">Class</a>&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum957">T</a>&gt; cls,</pre></td>
+<td><pre>    public static &lt;T&gt; <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/reflect/Constructor.html#linenum60">Constructor</a>&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum1255">T</a>&gt; getMatchingAccessibleConstructor(final <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/Class.html#linenum119">Class</a>&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum1255">T</a>&gt; cls,</pre></td>
 </tr>
 <tr>
 <td><a id="linenum246" class="linenum-cell" data-linenum="246" href="#linenum246"></a></td>
@@ -1008,7 +1008,7 @@
 </tr>
 <tr>
 <td><a id="linenum251" class="linenum-cell" data-linenum="251" href="#linenum251"></a></td>
-<td><pre>            final <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/reflect/Constructor.html#linenum60">Constructor</a>&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum957">T</a>&gt; ctor = <a class="variable" href="#linenum245">cls</a>.getConstructor(<a class="variable" href="#linenum246">parameterTypes</a>);</pre></td>
+<td><pre>            final <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/reflect/Constructor.html#linenum60">Constructor</a>&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum1255">T</a>&gt; ctor = <a class="variable" href="#linenum245">cls</a>.getConstructor(<a class="variable" href="#linenum246">parameterTypes</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum252" class="linenum-cell" data-linenum="252" href="#linenum252"></a></td>
@@ -1028,7 +1028,7 @@
 </tr>
 <tr>
 <td><a id="linenum256" class="linenum-cell" data-linenum="256" href="#linenum256"></a></td>
-<td><pre>        <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/reflect/Constructor.html#linenum60">Constructor</a>&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum957">T</a>&gt; result = null;</pre></td>
+<td><pre>        <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/reflect/Constructor.html#linenum60">Constructor</a>&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum1255">T</a>&gt; result = null;</pre></td>
 </tr>
 <tr>
 <td><a id="linenum257" class="linenum-cell" data-linenum="257" href="#linenum257"></a></td>
@@ -1104,7 +1104,7 @@
 </tr>
 <tr>
 <td><a id="linenum275" class="linenum-cell" data-linenum="275" href="#linenum275"></a></td>
-<td><pre>                        <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/reflect/Constructor.html#linenum60">Constructor</a>&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum957">T</a>&gt; constructor = (<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/reflect/Constructor.html#linenum60">Constructor</a>&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum957">T</a>&gt;) <a class="variable" href="#linenum251">ctor</a>;</pre></td>
+<td><pre>                        <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/reflect/Constructor.html#linenum60">Constructor</a>&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum1255">T</a>&gt; constructor = (<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/reflect/Constructor.html#linenum60">Constructor</a>&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum1255">T</a>&gt;) <a class="variable" href="#linenum251">ctor</a>;</pre></td>
 </tr>
 <tr>
 <td><a id="linenum276" class="linenum-cell" data-linenum="276" href="#linenum276"></a></td>

@@ -420,7 +420,7 @@
 </tr>
 <tr>
 <td><a id="linenum104" class="linenum-cell" data-linenum="104" href="#linenum104"></a></td>
-<td><pre>        final <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/util/Iterator.html#linenum54">Iterator</a>&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/util/Map.html#linenum129">Map</a>.<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/ConditionalSpecialCasing.html#linenum432">Entry</a>&lt;K, V&gt;&gt; it = <a class="variable" href="#linenum83">map</a>.entrySet().iterator();</pre></td>
+<td><pre>        final <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/util/Iterator.html#linenum54">Iterator</a>&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/util/Map.html#linenum129">Map</a>.<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/ref/FinalizerHistogram.html#linenum41">Entry</a>&lt;K, V&gt;&gt; it = <a class="variable" href="#linenum83">map</a>.entrySet().iterator();</pre></td>
 </tr>
 <tr>
 <td><a id="linenum105" class="linenum-cell" data-linenum="105" href="#linenum105"></a></td>
@@ -428,7 +428,7 @@
 </tr>
 <tr>
 <td><a id="linenum106" class="linenum-cell" data-linenum="106" href="#linenum106"></a></td>
-<td><pre>            final <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/util/Map.html#linenum129">Map</a>.<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/ConditionalSpecialCasing.html#linenum432">Entry</a>&lt;K, V&gt; entry = <a class="variable" href="#linenum104">it</a>.next();</pre></td>
+<td><pre>            final <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/util/Map.html#linenum129">Map</a>.<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/ref/FinalizerHistogram.html#linenum41">Entry</a>&lt;K, V&gt; entry = <a class="variable" href="#linenum104">it</a>.next();</pre></td>
 </tr>
 <tr>
 <td><a id="linenum107" class="linenum-cell" data-linenum="107" href="#linenum107"></a></td>
@@ -536,15 +536,15 @@
 </tr>
 <tr>
 <td><a id="linenum133" class="linenum-cell" data-linenum="133" href="#linenum133"></a></td>
-<td><pre>    private void readObject(final <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/io/ObjectInputStream.html#linenum206">ObjectInputStream</a> in) throws <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/io/IOException.html#linenum38">IOException</a>, <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/ClassNotFoundException.html#linenum53">ClassNotFoundException</a> {</pre></td>
+<td><pre>    private void readObject(final <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/io/ObjectInputStream.html#linenum217">ObjectInputStream</a> in) throws <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/io/IOException.html#linenum38">IOException</a>, <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/ClassNotFoundException.html#linenum53">ClassNotFoundException</a> {</pre></td>
 </tr>
 <tr>
 <td><a id="linenum134" class="linenum-cell" data-linenum="134" href="#linenum134"></a></td>
-<td><pre>        <a class="variable" href="#linenum133">in</a>.<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/io/ObjectInputStream.html#linenum491">defaultReadObject</a>();</pre></td>
+<td><pre>        <a class="variable" href="#linenum133">in</a>.<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/io/ObjectInputStream.html#linenum623">defaultReadObject</a>();</pre></td>
 </tr>
 <tr>
 <td><a id="linenum135" class="linenum-cell" data-linenum="135" href="#linenum135"></a></td>
-<td><pre>        <a class="variable" href="#linenum98">map</a> = (<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/util/Map.html#linenum129">Map</a>&lt;K, V&gt;) <a class="variable" href="#linenum133">in</a>.<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/io/ObjectInputStream.html#linenum361">readObject</a>(); <span class='comment'>// (1)</span></pre></td>
+<td><pre>        <a class="variable" href="#linenum98">map</a> = (<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/util/Map.html#linenum129">Map</a>&lt;K, V&gt;) <a class="variable" href="#linenum133">in</a>.<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/io/ObjectInputStream.html#linenum459">readObject</a>(); <span class='comment'>// (1)</span></pre></td>
 </tr>
 <tr>
 <td><a id="linenum136" class="linenum-cell" data-linenum="136" href="#linenum136"></a></td>
@@ -768,7 +768,7 @@
 </tr>
 <tr>
 <td><a id="linenum191" class="linenum-cell" data-linenum="191" href="#linenum191"></a></td>
-<td><pre>        for (final <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/util/Map.html#linenum129">Map</a>.<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/ConditionalSpecialCasing.html#linenum432">Entry</a>&lt;? extends K, ? extends V&gt; entry : <a class="variable" href="#linenum190">mapToCopy</a>.entrySet()) {</pre></td>
+<td><pre>        for (final <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/util/Map.html#linenum129">Map</a>.<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/ref/FinalizerHistogram.html#linenum41">Entry</a>&lt;? extends K, ? extends V&gt; entry : <a class="variable" href="#linenum190">mapToCopy</a>.entrySet()) {</pre></td>
 </tr>
 <tr>
 <td><a id="linenum192" class="linenum-cell" data-linenum="192" href="#linenum192"></a></td>

@@ -68,13 +68,13 @@
       "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/TextStringBuilder.html",
       "lineNumber" : 76
     },
-    "org.apache.commons.text.RandomStringGenerator" : {
-      "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/RandomStringGenerator.html",
-      "lineNumber" : 61
-    },
     "org.apache.commons.text.lookup.XmlStringLookup" : {
       "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/lookup/XmlStringLookup.html",
       "lineNumber" : 40
+    },
+    "org.apache.commons.text.RandomStringGenerator" : {
+      "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/RandomStringGenerator.html",
+      "lineNumber" : 61
     },
     "org.apache.commons.text.StrMatcher.NoMatcher" : {
       "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/StrMatcher.html",
@@ -84,13 +84,13 @@
       "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/StrLookup.html",
       "lineNumber" : 196
     },
-    "org.apache.commons.text.similarity.LongestCommonSubsequenceDistance" : {
-      "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/similarity/LongestCommonSubsequenceDistance.html",
-      "lineNumber" : 37
-    },
     "org.apache.commons.text.similarity.EditDistance" : {
       "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/similarity/EditDistance.html",
       "lineNumber" : 47
+    },
+    "org.apache.commons.text.similarity.LongestCommonSubsequenceDistance" : {
+      "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/similarity/LongestCommonSubsequenceDistance.html",
+      "lineNumber" : 37
     },
     "org.apache.commons.text.matcher.AbstractStringMatcher.CharArrayMatcher" : {
       "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/matcher/AbstractStringMatcher.html",
@@ -156,13 +156,13 @@
       "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/lookup/InetAddressKeys.html",
       "lineNumber" : 27
     },
-    "org.apache.commons.text.translate.UnicodeUnescaper" : {
-      "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/translate/UnicodeUnescaper.html",
-      "lineNumber" : 29
-    },
     "org.apache.commons.text.StrLookup" : {
       "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/StrLookup.html",
       "lineNumber" : 41
+    },
+    "org.apache.commons.text.translate.UnicodeUnescaper" : {
+      "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/translate/UnicodeUnescaper.html",
+      "lineNumber" : 29
     },
     "org.apache.commons.text.TextStringBuilder.TextStringBuilderWriter" : {
       "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/TextStringBuilder.html",
@@ -216,13 +216,13 @@
       "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/similarity/CosineDistance.html",
       "lineNumber" : 36
     },
-    "org.apache.commons.text.translate.LookupTranslator" : {
-      "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/translate/LookupTranslator.html",
-      "lineNumber" : 31
-    },
     "org.apache.commons.text.similarity.JaccardSimilarity" : {
       "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/similarity/JaccardSimilarity.html",
       "lineNumber" : 34
+    },
+    "org.apache.commons.text.translate.LookupTranslator" : {
+      "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/translate/LookupTranslator.html",
+      "lineNumber" : 31
     },
     "org.apache.commons.text.StrMatcher.CharMatcher" : {
       "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/StrMatcher.html",
@@ -256,13 +256,13 @@
       "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/lookup/BiStringLookup.html",
       "lineNumber" : 42
     },
-    "org.apache.commons.text.similarity.JaroWinklerSimilarity" : {
-      "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/similarity/JaroWinklerSimilarity.html",
-      "lineNumber" : 44
-    },
     "org.apache.commons.text.matcher.AbstractStringMatcher.TrimMatcher" : {
       "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/matcher/AbstractStringMatcher.html",
       "lineNumber" : 383
+    },
+    "org.apache.commons.text.similarity.JaroWinklerSimilarity" : {
+      "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/similarity/JaroWinklerSimilarity.html",
+      "lineNumber" : 44
     },
     "org.apache.commons.text.lookup.UrlStringLookup" : {
       "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/lookup/UrlStringLookup.html",
@@ -296,17 +296,21 @@
       "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/translate/UnicodeUnpairedSurrogateRemover.html",
       "lineNumber" : 27
     },
-    "org.apache.commons.text.translate.JavaUnicodeEscaper" : {
-      "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/translate/JavaUnicodeEscaper.html",
-      "lineNumber" : 24
-    },
     "org.apache.commons.text.diff.EditScript" : {
       "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/diff/EditScript.html",
       "lineNumber" : 46
     },
+    "org.apache.commons.text.translate.JavaUnicodeEscaper" : {
+      "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/translate/JavaUnicodeEscaper.html",
+      "lineNumber" : 24
+    },
     "org.apache.commons.text.similarity.IntersectionResult" : {
       "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/similarity/IntersectionResult.html",
       "lineNumber" : 32
+    },
+    "org.apache.commons.text.CaseUtils" : {
+      "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/CaseUtils.html",
+      "lineNumber" : 34
     },
     "org.apache.commons.text.similarity.LevenshteinDistance" : {
       "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/similarity/LevenshteinDistance.html",
@@ -316,21 +320,13 @@
       "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/TextStringBuilder.html",
       "lineNumber" : 81
     },
-    "org.apache.commons.text.CaseUtils" : {
-      "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/CaseUtils.html",
-      "lineNumber" : 34
-    },
-    "org.apache.commons.text.translate.CodePointTranslator" : {
-      "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/translate/CodePointTranslator.html",
-      "lineNumber" : 28
-    },
     "org.apache.commons.text.lookup.DnsStringLookup" : {
       "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/lookup/DnsStringLookup.html",
       "lineNumber" : 59
     },
-    "org.apache.commons.text.translate.NumericEntityUnescaper" : {
-      "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/translate/NumericEntityUnescaper.html",
-      "lineNumber" : 32
+    "org.apache.commons.text.translate.CodePointTranslator" : {
+      "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/translate/CodePointTranslator.html",
+      "lineNumber" : 28
     },
     "org.apache.commons.text.lookup.LocalHostStringLookup" : {
       "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/lookup/LocalHostStringLookup.html",
@@ -339,6 +335,10 @@
     "org.apache.commons.text.StrMatcher" : {
       "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/StrMatcher.html",
       "lineNumber" : 34
+    },
+    "org.apache.commons.text.translate.NumericEntityUnescaper" : {
+      "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/translate/NumericEntityUnescaper.html",
+      "lineNumber" : 32
     },
     "org.apache.commons.text.lookup.ResourceBundleStringLookup" : {
       "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/lookup/ResourceBundleStringLookup.html",
@@ -352,13 +352,13 @@
       "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/lookup/StringLookupFactory.html",
       "lineNumber" : 179
     },
-    "org.apache.commons.text.similarity.HammingDistance" : {
-      "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/similarity/HammingDistance.html",
-      "lineNumber" : 30
-    },
     "org.apache.commons.text.matcher.AbstractStringMatcher.CharSetMatcher" : {
       "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/matcher/AbstractStringMatcher.html",
       "lineNumber" : 261
+    },
+    "org.apache.commons.text.similarity.HammingDistance" : {
+      "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/similarity/HammingDistance.html",
+      "lineNumber" : 30
     },
     "org.apache.commons.text.StringEscapeUtils.XsiUnescaper" : {
       "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/StringEscapeUtils.html",
@@ -436,16 +436,16 @@
       "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/StrSubstitutor.html",
       "lineNumber" : 126
     },
+    "org.apache.commons.text.CharacterPredicates" : {
+      "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/CharacterPredicates.html",
+      "lineNumber" : 27
+    },
     "org.apache.commons.text.diff.EditCommand" : {
       "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/diff/EditCommand.html",
       "lineNumber" : 54
     },
     "org.apache.commons.text.matcher.StringMatcher" : {
       "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/matcher/StringMatcher.html",
-      "lineNumber" : 27
-    },
-    "org.apache.commons.text.CharacterPredicates" : {
-      "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/CharacterPredicates.html",
       "lineNumber" : 27
     },
     "org.apache.commons.text.TextStringBuilder.TextStringBuilderTokenizer" : {
@@ -460,13 +460,13 @@
       "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/lookup/ConstantStringLookup.html",
       "lineNumber" : 64
     },
-    "org.apache.commons.text.similarity.EditDistanceFrom" : {
-      "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/similarity/EditDistanceFrom.html",
-      "lineNumber" : 55
-    },
     "org.apache.commons.text.lookup.BiFunctionStringLookup" : {
       "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/lookup/BiFunctionStringLookup.html",
       "lineNumber" : 31
+    },
+    "org.apache.commons.text.similarity.EditDistanceFrom" : {
+      "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/similarity/EditDistanceFrom.html",
+      "lineNumber" : 55
     },
     "org.apache.commons.text.diff.StringsComparator" : {
       "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/diff/StringsComparator.html",
@@ -480,13 +480,13 @@
       "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/StrMatcher.html",
       "lineNumber" : 427
     },
-    "org.apache.commons.text.translate.UnicodeEscaper" : {
-      "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/translate/UnicodeEscaper.html",
-      "lineNumber" : 27
-    },
     "org.apache.commons.text.diff.ReplacementsFinder" : {
       "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/diff/ReplacementsFinder.html",
       "lineNumber" : 53
+    },
+    "org.apache.commons.text.translate.UnicodeEscaper" : {
+      "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/translate/UnicodeEscaper.html",
+      "lineNumber" : 27
     },
     "org.apache.commons.text.StrBuilder.StrBuilderTokenizer" : {
       "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/StrBuilder.html",
@@ -2324,6 +2324,16 @@
         }
       } ]
     },
+    "org.apache.commons.text.lookup.XmlStringLookup" : {
+      "lookup" : [ {
+        "argumentTypes" : [ "String" ],
+        "returnType" : "String",
+        "filePosition" : {
+          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/lookup/XmlStringLookup.html",
+          "lineNumber" : 63
+        }
+      } ]
+    },
     "org.apache.commons.text.RandomStringGenerator" : {
       "generate" : [ {
         "argumentTypes" : [ "int" ],
@@ -2338,16 +2348,6 @@
         "filePosition" : {
           "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/RandomStringGenerator.html",
           "lineNumber" : 225
-        }
-      } ]
-    },
-    "org.apache.commons.text.lookup.XmlStringLookup" : {
-      "lookup" : [ {
-        "argumentTypes" : [ "String" ],
-        "returnType" : "String",
-        "filePosition" : {
-          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/lookup/XmlStringLookup.html",
-          "lineNumber" : 63
         }
       } ]
     },
@@ -2371,16 +2371,6 @@
         }
       } ]
     },
-    "org.apache.commons.text.similarity.LongestCommonSubsequenceDistance" : {
-      "apply" : [ {
-        "argumentTypes" : [ "CharSequence", "CharSequence" ],
-        "returnType" : "Integer",
-        "filePosition" : {
-          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/similarity/LongestCommonSubsequenceDistance.html",
-          "lineNumber" : 55
-        }
-      } ]
-    },
     "org.apache.commons.text.similarity.EditDistance" : {
       "apply" : [ {
         "argumentTypes" : [ "CharSequence", "CharSequence" ],
@@ -2388,6 +2378,16 @@
         "filePosition" : {
           "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/similarity/EditDistance.html",
           "lineNumber" : 56
+        }
+      } ]
+    },
+    "org.apache.commons.text.similarity.LongestCommonSubsequenceDistance" : {
+      "apply" : [ {
+        "argumentTypes" : [ "CharSequence", "CharSequence" ],
+        "returnType" : "Integer",
+        "filePosition" : {
+          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/similarity/LongestCommonSubsequenceDistance.html",
+          "lineNumber" : 55
         }
       } ]
     },
@@ -2838,16 +2838,6 @@
         }
       } ]
     },
-    "org.apache.commons.text.translate.UnicodeUnescaper" : {
-      "translate" : [ {
-        "argumentTypes" : [ "CharSequence", "int", "Writer" ],
-        "returnType" : "int",
-        "filePosition" : {
-          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/translate/UnicodeUnescaper.html",
-          "lineNumber" : 34
-        }
-      } ]
-    },
     "org.apache.commons.text.StrLookup" : {
       "noneLookup" : [ {
         "argumentTypes" : [ ],
@@ -2879,6 +2869,16 @@
         "filePosition" : {
           "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/StrLookup.html",
           "lineNumber" : 101
+        }
+      } ]
+    },
+    "org.apache.commons.text.translate.UnicodeUnescaper" : {
+      "translate" : [ {
+        "argumentTypes" : [ "CharSequence", "int", "Writer" ],
+        "returnType" : "int",
+        "filePosition" : {
+          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/translate/UnicodeUnescaper.html",
+          "lineNumber" : 34
         }
       } ]
     },
@@ -3143,16 +3143,6 @@
         }
       } ]
     },
-    "org.apache.commons.text.translate.LookupTranslator" : {
-      "translate" : [ {
-        "argumentTypes" : [ "CharSequence", "int", "Writer" ],
-        "returnType" : "int",
-        "filePosition" : {
-          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/translate/LookupTranslator.html",
-          "lineNumber" : 80
-        }
-      } ]
-    },
     "org.apache.commons.text.similarity.JaccardSimilarity" : {
       "apply" : [ {
         "argumentTypes" : [ "CharSequence", "CharSequence" ],
@@ -3160,6 +3150,16 @@
         "filePosition" : {
           "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/similarity/JaccardSimilarity.html",
           "lineNumber" : 46
+        }
+      } ]
+    },
+    "org.apache.commons.text.translate.LookupTranslator" : {
+      "translate" : [ {
+        "argumentTypes" : [ "CharSequence", "int", "Writer" ],
+        "returnType" : "int",
+        "filePosition" : {
+          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/translate/LookupTranslator.html",
+          "lineNumber" : 80
         }
       } ]
     },
@@ -3391,24 +3391,6 @@
         }
       } ]
     },
-    "org.apache.commons.text.similarity.JaroWinklerSimilarity" : {
-      "apply" : [ {
-        "argumentTypes" : [ "CharSequence", "CharSequence" ],
-        "returnType" : "Double",
-        "filePosition" : {
-          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/similarity/JaroWinklerSimilarity.html",
-          "lineNumber" : 78
-        }
-      } ],
-      "matches" : [ {
-        "argumentTypes" : [ "CharSequence", "CharSequence" ],
-        "returnType" : "int[]",
-        "filePosition" : {
-          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/similarity/JaroWinklerSimilarity.html",
-          "lineNumber" : 107
-        }
-      } ]
-    },
     "org.apache.commons.text.matcher.AbstractStringMatcher.TrimMatcher" : {
       "size" : [ {
         "argumentTypes" : [ ],
@@ -3431,6 +3413,24 @@
         "filePosition" : {
           "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/matcher/AbstractStringMatcher.html",
           "lineNumber" : 420
+        }
+      } ]
+    },
+    "org.apache.commons.text.similarity.JaroWinklerSimilarity" : {
+      "apply" : [ {
+        "argumentTypes" : [ "CharSequence", "CharSequence" ],
+        "returnType" : "Double",
+        "filePosition" : {
+          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/similarity/JaroWinklerSimilarity.html",
+          "lineNumber" : 78
+        }
+      } ],
+      "matches" : [ {
+        "argumentTypes" : [ "CharSequence", "CharSequence" ],
+        "returnType" : "int[]",
+        "filePosition" : {
+          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/similarity/JaroWinklerSimilarity.html",
+          "lineNumber" : 107
         }
       } ]
     },
@@ -4683,48 +4683,6 @@
         }
       } ]
     },
-    "org.apache.commons.text.translate.JavaUnicodeEscaper" : {
-      "outsideOf" : [ {
-        "argumentTypes" : [ "int", "int" ],
-        "returnType" : "JavaUnicodeEscaper",
-        "filePosition" : {
-          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/translate/JavaUnicodeEscaper.html",
-          "lineNumber" : 78
-        }
-      } ],
-      "below" : [ {
-        "argumentTypes" : [ "int" ],
-        "returnType" : "JavaUnicodeEscaper",
-        "filePosition" : {
-          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/translate/JavaUnicodeEscaper.html",
-          "lineNumber" : 48
-        }
-      } ],
-      "above" : [ {
-        "argumentTypes" : [ "int" ],
-        "returnType" : "JavaUnicodeEscaper",
-        "filePosition" : {
-          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/translate/JavaUnicodeEscaper.html",
-          "lineNumber" : 35
-        }
-      } ],
-      "between" : [ {
-        "argumentTypes" : [ "int", "int" ],
-        "returnType" : "JavaUnicodeEscaper",
-        "filePosition" : {
-          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/translate/JavaUnicodeEscaper.html",
-          "lineNumber" : 63
-        }
-      } ],
-      "toUtf16Escape" : [ {
-        "argumentTypes" : [ "int" ],
-        "returnType" : "String",
-        "filePosition" : {
-          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/translate/JavaUnicodeEscaper.html",
-          "lineNumber" : 107
-        }
-      } ]
-    },
     "org.apache.commons.text.diff.EditScript" : {
       "getModifications" : [ {
         "argumentTypes" : [ ],
@@ -4770,6 +4728,48 @@
         "filePosition" : {
           "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/diff/EditScript.html",
           "lineNumber" : 118
+        }
+      } ]
+    },
+    "org.apache.commons.text.translate.JavaUnicodeEscaper" : {
+      "outsideOf" : [ {
+        "argumentTypes" : [ "int", "int" ],
+        "returnType" : "JavaUnicodeEscaper",
+        "filePosition" : {
+          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/translate/JavaUnicodeEscaper.html",
+          "lineNumber" : 78
+        }
+      } ],
+      "below" : [ {
+        "argumentTypes" : [ "int" ],
+        "returnType" : "JavaUnicodeEscaper",
+        "filePosition" : {
+          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/translate/JavaUnicodeEscaper.html",
+          "lineNumber" : 48
+        }
+      } ],
+      "above" : [ {
+        "argumentTypes" : [ "int" ],
+        "returnType" : "JavaUnicodeEscaper",
+        "filePosition" : {
+          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/translate/JavaUnicodeEscaper.html",
+          "lineNumber" : 35
+        }
+      } ],
+      "between" : [ {
+        "argumentTypes" : [ "int", "int" ],
+        "returnType" : "JavaUnicodeEscaper",
+        "filePosition" : {
+          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/translate/JavaUnicodeEscaper.html",
+          "lineNumber" : 63
+        }
+      } ],
+      "toUtf16Escape" : [ {
+        "argumentTypes" : [ "int" ],
+        "returnType" : "String",
+        "filePosition" : {
+          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/translate/JavaUnicodeEscaper.html",
+          "lineNumber" : 107
         }
       } ]
     },
@@ -4820,6 +4820,16 @@
         "filePosition" : {
           "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/similarity/IntersectionResult.html",
           "lineNumber" : 93
+        }
+      } ]
+    },
+    "org.apache.commons.text.CaseUtils" : {
+      "toCamelCase" : [ {
+        "argumentTypes" : [ "String", "boolean", "char" ],
+        "returnType" : "String",
+        "filePosition" : {
+          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/CaseUtils.html",
+          "lineNumber" : 77
         }
       } ]
     },
@@ -4914,13 +4924,13 @@
         }
       } ]
     },
-    "org.apache.commons.text.CaseUtils" : {
-      "toCamelCase" : [ {
-        "argumentTypes" : [ "String", "boolean", "char" ],
+    "org.apache.commons.text.lookup.DnsStringLookup" : {
+      "lookup" : [ {
+        "argumentTypes" : [ "String" ],
         "returnType" : "String",
         "filePosition" : {
-          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/CaseUtils.html",
-          "lineNumber" : 77
+          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/lookup/DnsStringLookup.html",
+          "lineNumber" : 79
         }
       } ]
     },
@@ -4938,34 +4948,6 @@
         "filePosition" : {
           "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/translate/CodePointTranslator.html",
           "lineNumber" : 49
-        }
-      } ]
-    },
-    "org.apache.commons.text.lookup.DnsStringLookup" : {
-      "lookup" : [ {
-        "argumentTypes" : [ "String" ],
-        "returnType" : "String",
-        "filePosition" : {
-          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/lookup/DnsStringLookup.html",
-          "lineNumber" : 79
-        }
-      } ]
-    },
-    "org.apache.commons.text.translate.NumericEntityUnescaper" : {
-      "isSet" : [ {
-        "argumentTypes" : [ "OPTION" ],
-        "returnType" : "boolean",
-        "filePosition" : {
-          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/translate/NumericEntityUnescaper.html",
-          "lineNumber" : 86
-        }
-      } ],
-      "translate" : [ {
-        "argumentTypes" : [ "CharSequence", "int", "Writer" ],
-        "returnType" : "int",
-        "filePosition" : {
-          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/translate/NumericEntityUnescaper.html",
-          "lineNumber" : 93
         }
       } ]
     },
@@ -5096,6 +5078,24 @@
         "filePosition" : {
           "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/StrMatcher.html",
           "lineNumber" : 108
+        }
+      } ]
+    },
+    "org.apache.commons.text.translate.NumericEntityUnescaper" : {
+      "isSet" : [ {
+        "argumentTypes" : [ "OPTION" ],
+        "returnType" : "boolean",
+        "filePosition" : {
+          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/translate/NumericEntityUnescaper.html",
+          "lineNumber" : 86
+        }
+      } ],
+      "translate" : [ {
+        "argumentTypes" : [ "CharSequence", "int", "Writer" ],
+        "returnType" : "int",
+        "filePosition" : {
+          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/translate/NumericEntityUnescaper.html",
+          "lineNumber" : 93
         }
       } ]
     },
@@ -5373,16 +5373,6 @@
         }
       } ]
     },
-    "org.apache.commons.text.similarity.HammingDistance" : {
-      "apply" : [ {
-        "argumentTypes" : [ "CharSequence", "CharSequence" ],
-        "returnType" : "Integer",
-        "filePosition" : {
-          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/similarity/HammingDistance.html",
-          "lineNumber" : 57
-        }
-      } ]
-    },
     "org.apache.commons.text.matcher.AbstractStringMatcher.CharSetMatcher" : {
       "size" : [ {
         "argumentTypes" : [ ],
@@ -5413,6 +5403,16 @@
         "filePosition" : {
           "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/matcher/AbstractStringMatcher.html",
           "lineNumber" : 300
+        }
+      } ]
+    },
+    "org.apache.commons.text.similarity.HammingDistance" : {
+      "apply" : [ {
+        "argumentTypes" : [ "CharSequence", "CharSequence" ],
+        "returnType" : "Integer",
+        "filePosition" : {
+          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/similarity/HammingDistance.html",
+          "lineNumber" : 57
         }
       } ]
     },
@@ -7085,32 +7085,6 @@
         }
       } ]
     },
-    "org.apache.commons.text.similarity.EditDistanceFrom" : {
-      "apply" : [ {
-        "argumentTypes" : [ "CharSequence" ],
-        "returnType" : "R",
-        "filePosition" : {
-          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/similarity/EditDistanceFrom.html",
-          "lineNumber" : 90
-        }
-      } ],
-      "getEditDistance" : [ {
-        "argumentTypes" : [ ],
-        "returnType" : "EditDistance<R>",
-        "filePosition" : {
-          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/similarity/EditDistanceFrom.html",
-          "lineNumber" : 108
-        }
-      } ],
-      "getLeft" : [ {
-        "argumentTypes" : [ ],
-        "returnType" : "CharSequence",
-        "filePosition" : {
-          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/similarity/EditDistanceFrom.html",
-          "lineNumber" : 99
-        }
-      } ]
-    },
     "org.apache.commons.text.lookup.BiFunctionStringLookup" : {
       "lookup" : [ {
         "argumentTypes" : [ "String" ],
@@ -7151,6 +7125,32 @@
         }
       } ]
     },
+    "org.apache.commons.text.similarity.EditDistanceFrom" : {
+      "apply" : [ {
+        "argumentTypes" : [ "CharSequence" ],
+        "returnType" : "R",
+        "filePosition" : {
+          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/similarity/EditDistanceFrom.html",
+          "lineNumber" : 90
+        }
+      } ],
+      "getEditDistance" : [ {
+        "argumentTypes" : [ ],
+        "returnType" : "EditDistance<R>",
+        "filePosition" : {
+          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/similarity/EditDistanceFrom.html",
+          "lineNumber" : 108
+        }
+      } ],
+      "getLeft" : [ {
+        "argumentTypes" : [ ],
+        "returnType" : "CharSequence",
+        "filePosition" : {
+          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/similarity/EditDistanceFrom.html",
+          "lineNumber" : 99
+        }
+      } ]
+    },
     "org.apache.commons.text.diff.StringsComparator" : {
       "getScript" : [ {
         "argumentTypes" : [ ],
@@ -7178,6 +7178,32 @@
         "filePosition" : {
           "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/StrMatcher.html",
           "lineNumber" : 445
+        }
+      } ]
+    },
+    "org.apache.commons.text.diff.ReplacementsFinder" : {
+      "visitInsertCommand" : [ {
+        "argumentTypes" : [ "T" ],
+        "returnType" : "void",
+        "filePosition" : {
+          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/diff/ReplacementsFinder.html",
+          "lineNumber" : 90
+        }
+      } ],
+      "visitDeleteCommand" : [ {
+        "argumentTypes" : [ "T" ],
+        "returnType" : "void",
+        "filePosition" : {
+          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/diff/ReplacementsFinder.html",
+          "lineNumber" : 121
+        }
+      } ],
+      "visitKeepCommand" : [ {
+        "argumentTypes" : [ "T" ],
+        "returnType" : "void",
+        "filePosition" : {
+          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/diff/ReplacementsFinder.html",
+          "lineNumber" : 104
         }
       } ]
     },
@@ -7228,32 +7254,6 @@
         "filePosition" : {
           "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/translate/UnicodeEscaper.html",
           "lineNumber" : 137
-        }
-      } ]
-    },
-    "org.apache.commons.text.diff.ReplacementsFinder" : {
-      "visitInsertCommand" : [ {
-        "argumentTypes" : [ "T" ],
-        "returnType" : "void",
-        "filePosition" : {
-          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/diff/ReplacementsFinder.html",
-          "lineNumber" : 90
-        }
-      } ],
-      "visitDeleteCommand" : [ {
-        "argumentTypes" : [ "T" ],
-        "returnType" : "void",
-        "filePosition" : {
-          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/diff/ReplacementsFinder.html",
-          "lineNumber" : 121
-        }
-      } ],
-      "visitKeepCommand" : [ {
-        "argumentTypes" : [ "T" ],
-        "returnType" : "void",
-        "filePosition" : {
-          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/diff/ReplacementsFinder.html",
-          "lineNumber" : 104
         }
       } ]
     },
@@ -7490,6 +7490,15 @@
         }
       }
     },
+    "org.apache.commons.text.lookup.ScriptStringLookup" : {
+      "INSTANCE" : {
+        "type" : "ScriptStringLookup",
+        "filePosition" : {
+          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/lookup/ScriptStringLookup.html",
+          "lineNumber" : 50
+        }
+      }
+    },
     "org.apache.commons.text.translate.EntityArrays" : {
       "HTML40_EXTENDED_ESCAPE" : {
         "type" : "Map<CharSequence,CharSequence>",
@@ -7562,24 +7571,6 @@
         }
       }
     },
-    "org.apache.commons.text.lookup.ScriptStringLookup" : {
-      "INSTANCE" : {
-        "type" : "ScriptStringLookup",
-        "filePosition" : {
-          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/lookup/ScriptStringLookup.html",
-          "lineNumber" : 50
-        }
-      }
-    },
-    "org.apache.commons.text.translate.CharSequenceTranslator" : {
-      "HEX_DIGITS" : {
-        "type" : "char[]",
-        "filePosition" : {
-          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/translate/CharSequenceTranslator.html",
-          "lineNumber" : 38
-        }
-      }
-    },
     "org.apache.commons.text.matcher.StringMatcherFactory" : {
       "INSTANCE" : {
         "type" : "StringMatcherFactory",
@@ -7637,6 +7628,15 @@
         "filePosition" : {
           "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/StringSubstitutor.html",
           "lineNumber" : 274
+        }
+      }
+    },
+    "org.apache.commons.text.translate.CharSequenceTranslator" : {
+      "HEX_DIGITS" : {
+        "type" : "char[]",
+        "filePosition" : {
+          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/translate/CharSequenceTranslator.html",
+          "lineNumber" : 38
         }
       }
     },
@@ -7781,6 +7781,15 @@
         }
       }
     },
+    "org.apache.commons.text.lookup.XmlStringLookup" : {
+      "INSTANCE" : {
+        "type" : "XmlStringLookup",
+        "filePosition" : {
+          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/lookup/XmlStringLookup.html",
+          "lineNumber" : 45
+        }
+      }
+    },
     "org.apache.commons.text.StringEscapeUtils" : {
       "ESCAPE_ECMASCRIPT" : {
         "type" : "CharSequenceTranslator",
@@ -7902,12 +7911,12 @@
         }
       }
     },
-    "org.apache.commons.text.lookup.XmlStringLookup" : {
+    "org.apache.commons.text.lookup.UrlDecoderStringLookup" : {
       "INSTANCE" : {
-        "type" : "XmlStringLookup",
+        "type" : "UrlDecoderStringLookup",
         "filePosition" : {
-          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/lookup/XmlStringLookup.html",
-          "lineNumber" : 45
+          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/lookup/UrlDecoderStringLookup.html",
+          "lineNumber" : 36
         }
       }
     },
@@ -7938,15 +7947,6 @@
         "filePosition" : {
           "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/StrSubstitutor.html",
           "lineNumber" : 137
-        }
-      }
-    },
-    "org.apache.commons.text.lookup.UrlDecoderStringLookup" : {
-      "INSTANCE" : {
-        "type" : "UrlDecoderStringLookup",
-        "filePosition" : {
-          "fileName" : "/OdinCodeBrowserRepos/commons-text_1.9/org/apache/commons/text/lookup/UrlDecoderStringLookup.html",
-          "lineNumber" : 36
         }
       }
     },
@@ -8004,12 +8004,12 @@
     "org.apache.commons.text.matcher.AbstractStringMatcher" : [ "java.lang.Object" ],
     "org.apache.commons.text.lookup.DateStringLookup" : [ "org.apache.commons.text.lookup.AbstractStringLookup" ],
     "org.apache.commons.text.TextStringBuilder" : [ "java.lang.Object" ],
-    "org.apache.commons.text.RandomStringGenerator" : [ "java.lang.Object" ],
     "org.apache.commons.text.lookup.XmlStringLookup" : [ "org.apache.commons.text.lookup.AbstractStringLookup" ],
+    "org.apache.commons.text.RandomStringGenerator" : [ "java.lang.Object" ],
     "org.apache.commons.text.StrMatcher.NoMatcher" : [ "org.apache.commons.text.StrMatcher" ],
     "org.apache.commons.text.StrLookup.SystemPropertiesStrLookup" : [ "org.apache.commons.text.StrLookup" ],
-    "org.apache.commons.text.similarity.LongestCommonSubsequenceDistance" : [ "java.lang.Object" ],
     "org.apache.commons.text.similarity.EditDistance" : [ "org.apache.commons.text.similarity.SimilarityScore" ],
+    "org.apache.commons.text.similarity.LongestCommonSubsequenceDistance" : [ "java.lang.Object" ],
     "org.apache.commons.text.matcher.AbstractStringMatcher.CharArrayMatcher" : [ "org.apache.commons.text.matcher.AbstractStringMatcher" ],
     "org.apache.commons.text.StrLookup.MapStrLookup" : [ "org.apache.commons.text.StrLookup" ],
     "org.apache.commons.text.similarity.RegexTokenizer" : [ "java.lang.Object" ],
@@ -8026,8 +8026,8 @@
     "org.apache.commons.text.diff.CommandVisitor" : [ "java.lang.Object" ],
     "org.apache.commons.text.WordUtils" : [ "java.lang.Object" ],
     "org.apache.commons.text.lookup.InetAddressKeys" : [ "java.lang.Object" ],
-    "org.apache.commons.text.translate.UnicodeUnescaper" : [ "org.apache.commons.text.translate.CharSequenceTranslator" ],
     "org.apache.commons.text.StrLookup" : [ "java.lang.Object" ],
+    "org.apache.commons.text.translate.UnicodeUnescaper" : [ "org.apache.commons.text.translate.CharSequenceTranslator" ],
     "org.apache.commons.text.TextStringBuilder.TextStringBuilderWriter" : [ "java.io.Writer" ],
     "org.apache.commons.text.similarity.IntersectionSimilarity" : [ "java.lang.Object" ],
     "org.apache.commons.text.translate.SinglePassTranslator" : [ "org.apache.commons.text.translate.CharSequenceTranslator" ],
@@ -8041,8 +8041,8 @@
     "org.apache.commons.text.similarity.Tokenizer" : [ "java.lang.Object" ],
     "org.apache.commons.text.StrBuilder.StrBuilderReader" : [ "java.io.Reader" ],
     "org.apache.commons.text.similarity.CosineDistance" : [ "java.lang.Object" ],
-    "org.apache.commons.text.translate.LookupTranslator" : [ "org.apache.commons.text.translate.CharSequenceTranslator" ],
     "org.apache.commons.text.similarity.JaccardSimilarity" : [ "java.lang.Object" ],
+    "org.apache.commons.text.translate.LookupTranslator" : [ "org.apache.commons.text.translate.CharSequenceTranslator" ],
     "org.apache.commons.text.StrMatcher.CharMatcher" : [ "org.apache.commons.text.StrMatcher" ],
     "org.apache.commons.text.translate.AggregateTranslator" : [ "org.apache.commons.text.translate.CharSequenceTranslator" ],
     "org.apache.commons.text.matcher.AbstractStringMatcher.NoneMatcher" : [ "org.apache.commons.text.matcher.AbstractStringMatcher" ],
@@ -8051,8 +8051,8 @@
     "org.apache.commons.text.translate.EntityArrays" : [ "java.lang.Object" ],
     "org.apache.commons.text.matcher.StringMatcherFactory" : [ "java.lang.Object" ],
     "org.apache.commons.text.lookup.BiStringLookup" : [ "org.apache.commons.text.lookup.StringLookup" ],
-    "org.apache.commons.text.similarity.JaroWinklerSimilarity" : [ "java.lang.Object" ],
     "org.apache.commons.text.matcher.AbstractStringMatcher.TrimMatcher" : [ "org.apache.commons.text.matcher.AbstractStringMatcher" ],
+    "org.apache.commons.text.similarity.JaroWinklerSimilarity" : [ "java.lang.Object" ],
     "org.apache.commons.text.lookup.UrlStringLookup" : [ "org.apache.commons.text.lookup.AbstractStringLookup" ],
     "org.apache.commons.text.translate.NumericEntityEscaper" : [ "org.apache.commons.text.translate.CodePointTranslator" ],
     "org.apache.commons.text.RandomStringGenerator.Builder" : [ "java.lang.Object" ],
@@ -8060,22 +8060,22 @@
     "org.apache.commons.text.StrBuilder" : [ "java.lang.Object" ],
     "org.apache.commons.text.similarity.LevenshteinResults" : [ "java.lang.Object" ],
     "org.apache.commons.text.translate.UnicodeUnpairedSurrogateRemover" : [ "org.apache.commons.text.translate.CodePointTranslator" ],
-    "org.apache.commons.text.translate.JavaUnicodeEscaper" : [ "org.apache.commons.text.translate.UnicodeEscaper" ],
     "org.apache.commons.text.diff.EditScript" : [ "java.lang.Object" ],
+    "org.apache.commons.text.translate.JavaUnicodeEscaper" : [ "org.apache.commons.text.translate.UnicodeEscaper" ],
     "org.apache.commons.text.similarity.IntersectionResult" : [ "java.lang.Object" ],
+    "org.apache.commons.text.CaseUtils" : [ "java.lang.Object" ],
     "org.apache.commons.text.similarity.LevenshteinDistance" : [ "java.lang.Object" ],
     "org.apache.commons.text.TextStringBuilder.TextStringBuilderReader" : [ "java.io.Reader" ],
-    "org.apache.commons.text.CaseUtils" : [ "java.lang.Object" ],
-    "org.apache.commons.text.translate.CodePointTranslator" : [ "org.apache.commons.text.translate.CharSequenceTranslator" ],
     "org.apache.commons.text.lookup.DnsStringLookup" : [ "org.apache.commons.text.lookup.AbstractStringLookup" ],
-    "org.apache.commons.text.translate.NumericEntityUnescaper" : [ "org.apache.commons.text.translate.CharSequenceTranslator" ],
+    "org.apache.commons.text.translate.CodePointTranslator" : [ "org.apache.commons.text.translate.CharSequenceTranslator" ],
     "org.apache.commons.text.lookup.LocalHostStringLookup" : [ "org.apache.commons.text.lookup.AbstractStringLookup" ],
     "org.apache.commons.text.StrMatcher" : [ "java.lang.Object" ],
+    "org.apache.commons.text.translate.NumericEntityUnescaper" : [ "org.apache.commons.text.translate.CharSequenceTranslator" ],
     "org.apache.commons.text.lookup.ResourceBundleStringLookup" : [ "org.apache.commons.text.lookup.AbstractStringLookup" ],
     "org.apache.commons.text.diff.ReplacementsHandler" : [ "java.lang.Object" ],
     "org.apache.commons.text.lookup.StringLookupFactory" : [ "java.lang.Object" ],
-    "org.apache.commons.text.similarity.HammingDistance" : [ "java.lang.Object" ],
     "org.apache.commons.text.matcher.AbstractStringMatcher.CharSetMatcher" : [ "org.apache.commons.text.matcher.AbstractStringMatcher" ],
+    "org.apache.commons.text.similarity.HammingDistance" : [ "java.lang.Object" ],
     "org.apache.commons.text.StringEscapeUtils.XsiUnescaper" : [ "org.apache.commons.text.translate.CharSequenceTranslator" ],
     "org.apache.commons.text.lookup.UrlEncoderStringLookup" : [ "org.apache.commons.text.lookup.AbstractStringLookup" ],
     "org.apache.commons.text.diff.InsertCommand" : [ "org.apache.commons.text.diff.EditCommand" ],
@@ -8100,13 +8100,13 @@
     "org.apache.commons.text.TextStringBuilder.TextStringBuilderTokenizer" : [ "org.apache.commons.text.StringTokenizer" ],
     "org.apache.commons.text.lookup.StringLookup" : [ "java.lang.Object" ],
     "org.apache.commons.text.lookup.ConstantStringLookup" : [ "org.apache.commons.text.lookup.AbstractStringLookup" ],
-    "org.apache.commons.text.similarity.EditDistanceFrom" : [ "java.lang.Object" ],
     "org.apache.commons.text.lookup.BiFunctionStringLookup" : [ "java.lang.Object" ],
+    "org.apache.commons.text.similarity.EditDistanceFrom" : [ "java.lang.Object" ],
     "org.apache.commons.text.diff.StringsComparator" : [ "java.lang.Object" ],
     "org.apache.commons.text.similarity.JaccardDistance" : [ "java.lang.Object" ],
     "org.apache.commons.text.StrMatcher.TrimMatcher" : [ "org.apache.commons.text.StrMatcher" ],
-    "org.apache.commons.text.translate.UnicodeEscaper" : [ "org.apache.commons.text.translate.CodePointTranslator" ],
     "org.apache.commons.text.diff.ReplacementsFinder" : [ "java.lang.Object" ],
+    "org.apache.commons.text.translate.UnicodeEscaper" : [ "org.apache.commons.text.translate.CodePointTranslator" ],
     "org.apache.commons.text.StrBuilder.StrBuilderTokenizer" : [ "org.apache.commons.text.StrTokenizer" ]
   }
 }

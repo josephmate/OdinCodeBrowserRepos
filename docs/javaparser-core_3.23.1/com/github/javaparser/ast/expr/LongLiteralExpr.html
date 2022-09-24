@@ -328,7 +328,7 @@
 </tr>
 <tr>
 <td><a id="linenum81" class="linenum-cell" data-linenum="81" href="#linenum81"></a></td>
-<td><pre>        this(null, String.<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/String.html#linenum3125">valueOf</a>(<a class="variable" href="#linenum70">value</a>));</pre></td>
+<td><pre>        this(null, String.<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/String.html#linenum3140">valueOf</a>(<a class="variable" href="#linenum70">value</a>));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum82" class="linenum-cell" data-linenum="82" href="#linenum82"></a></td>
@@ -456,7 +456,7 @@
 </tr>
 <tr>
 <td><a id="linenum113" class="linenum-cell" data-linenum="113" href="#linenum113"></a></td>
-<td><pre>        char lastChar = <a class="variable" href="#linenum112">result</a>.<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/String.html#linenum644">charAt</a>(<a class="variable" href="#linenum112">result</a>.<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/String.html#linenum610">length</a>() - 1);</pre></td>
+<td><pre>        char lastChar = <a class="variable" href="#linenum112">result</a>.<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/String.html#linenum656">charAt</a>(<a class="variable" href="#linenum112">result</a>.<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/String.html#linenum622">length</a>() - 1);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum114" class="linenum-cell" data-linenum="114" href="#linenum114"></a></td>
@@ -464,7 +464,7 @@
 </tr>
 <tr>
 <td><a id="linenum115" class="linenum-cell" data-linenum="115" href="#linenum115"></a></td>
-<td><pre>            <a class="variable" href="#linenum112">result</a> = <a class="variable" href="#linenum112">result</a>.<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/String.html#linenum1945">substring</a>(0, <a class="variable" href="#linenum112">result</a>.<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/String.html#linenum610">length</a>() - 1);</pre></td>
+<td><pre>            <a class="variable" href="#linenum112">result</a> = <a class="variable" href="#linenum112">result</a>.<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/String.html#linenum1958">substring</a>(0, <a class="variable" href="#linenum112">result</a>.<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/String.html#linenum622">length</a>() - 1);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum116" class="linenum-cell" data-linenum="116" href="#linenum116"></a></td>
@@ -472,11 +472,11 @@
 </tr>
 <tr>
 <td><a id="linenum117" class="linenum-cell" data-linenum="117" href="#linenum117"></a></td>
-<td><pre>        if (<a class="variable" href="#linenum112">result</a>.<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/String.html#linenum1420">startsWith</a>(<span class='string'>&quot;0x&quot;</span>) || <a class="variable" href="#linenum112">result</a>.<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/String.html#linenum1420">startsWith</a>(<span class='string'>&quot;0X&quot;</span>)) {</pre></td>
+<td><pre>        if (<a class="variable" href="#linenum112">result</a>.<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/String.html#linenum1433">startsWith</a>(<span class='string'>&quot;0x&quot;</span>) || <a class="variable" href="#linenum112">result</a>.<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/String.html#linenum1433">startsWith</a>(<span class='string'>&quot;0X&quot;</span>)) {</pre></td>
 </tr>
 <tr>
 <td><a id="linenum118" class="linenum-cell" data-linenum="118" href="#linenum118"></a></td>
-<td><pre>            return Long.<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/Long.html#linenum745">parseUnsignedLong</a>(<a class="variable" href="#linenum112">result</a>.<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/String.html#linenum1945">substring</a>(2), 16);</pre></td>
+<td><pre>            return Long.<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/Long.html#linenum677">parseUnsignedLong</a>(<a class="variable" href="#linenum112">result</a>.<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/String.html#linenum1925">substring</a>(2), 16);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum119" class="linenum-cell" data-linenum="119" href="#linenum119"></a></td>
@@ -484,11 +484,11 @@
 </tr>
 <tr>
 <td><a id="linenum120" class="linenum-cell" data-linenum="120" href="#linenum120"></a></td>
-<td><pre>        if (<a class="variable" href="#linenum112">result</a>.<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/String.html#linenum1420">startsWith</a>(<span class='string'>&quot;0b&quot;</span>) || <a class="variable" href="#linenum112">result</a>.<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/String.html#linenum1420">startsWith</a>(<span class='string'>&quot;0B&quot;</span>)) {</pre></td>
+<td><pre>        if (<a class="variable" href="#linenum112">result</a>.<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/String.html#linenum1433">startsWith</a>(<span class='string'>&quot;0b&quot;</span>) || <a class="variable" href="#linenum112">result</a>.<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/String.html#linenum1433">startsWith</a>(<span class='string'>&quot;0B&quot;</span>)) {</pre></td>
 </tr>
 <tr>
 <td><a id="linenum121" class="linenum-cell" data-linenum="121" href="#linenum121"></a></td>
-<td><pre>            return Long.<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/Long.html#linenum745">parseUnsignedLong</a>(<a class="variable" href="#linenum112">result</a>.<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/String.html#linenum1945">substring</a>(2), 2);</pre></td>
+<td><pre>            return Long.<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/Long.html#linenum677">parseUnsignedLong</a>(<a class="variable" href="#linenum112">result</a>.<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/String.html#linenum1925">substring</a>(2), 2);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum122" class="linenum-cell" data-linenum="122" href="#linenum122"></a></td>
@@ -496,11 +496,11 @@
 </tr>
 <tr>
 <td><a id="linenum123" class="linenum-cell" data-linenum="123" href="#linenum123"></a></td>
-<td><pre>        if (<a class="variable" href="#linenum112">result</a>.<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/String.html#linenum610">length</a>() &gt; 1 &amp;&amp; <a class="variable" href="#linenum112">result</a>.<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/String.html#linenum1420">startsWith</a>(<span class='string'>&quot;0&quot;</span>)) {</pre></td>
+<td><pre>        if (<a class="variable" href="#linenum112">result</a>.<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/String.html#linenum622">length</a>() &gt; 1 &amp;&amp; <a class="variable" href="#linenum112">result</a>.<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/String.html#linenum1433">startsWith</a>(<span class='string'>&quot;0&quot;</span>)) {</pre></td>
 </tr>
 <tr>
 <td><a id="linenum124" class="linenum-cell" data-linenum="124" href="#linenum124"></a></td>
-<td><pre>            return Long.<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/Long.html#linenum745">parseUnsignedLong</a>(<a class="variable" href="#linenum112">result</a>.<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/String.html#linenum1945">substring</a>(1), 8);</pre></td>
+<td><pre>            return Long.<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/Long.html#linenum677">parseUnsignedLong</a>(<a class="variable" href="#linenum112">result</a>.<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/String.html#linenum1925">substring</a>(1), 8);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum125" class="linenum-cell" data-linenum="125" href="#linenum125"></a></td>
@@ -656,7 +656,7 @@
 </tr>
 <tr>
 <td><a id="linenum163" class="linenum-cell" data-linenum="163" href="#linenum163"></a></td>
-<td><pre>        this.value = String.<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/String.html#linenum3125">valueOf</a>(<a class="variable" href="#linenum162">value</a>);</pre></td>
+<td><pre>        this.value = String.<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/String.html#linenum2993">valueOf</a>(<a class="variable" href="#linenum162">value</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum164" class="linenum-cell" data-linenum="164" href="#linenum164"></a></td>
@@ -684,7 +684,7 @@
 </tr>
 <tr>
 <td><a id="linenum170" class="linenum-cell" data-linenum="170" href="#linenum170"></a></td>
-<td><pre>        return (<a class="type" href="/OdinCodeBrowserRepos/javaparser-core_3.23.1/com/github/javaparser/ast/expr/LongLiteralExpr.html#linenum51">LongLiteralExpr</a>) <a class="type" href="/OdinCodeBrowserRepos/javaparser-core_3.23.1/com/github/javaparser/ast/expr/LongLiteralExpr.html#linenum90">accept</a>(new <a class="type" href="/OdinCodeBrowserRepos/javaparser-core_3.23.1/com/github/javaparser/ast/visitor/CloneVisitor.html#linenum35">CloneVisitor</a>(), null);</pre></td>
+<td><pre>        return (<a class="type" href="/OdinCodeBrowserRepos/javaparser-core_3.23.1/com/github/javaparser/ast/expr/LongLiteralExpr.html#linenum51">LongLiteralExpr</a>) <a class="type" href="/OdinCodeBrowserRepos/javaparser-core_3.23.1/com/github/javaparser/ast/expr/LongLiteralExpr.html#linenum84">accept</a>(new <a class="type" href="/OdinCodeBrowserRepos/javaparser-core_3.23.1/com/github/javaparser/ast/visitor/CloneVisitor.html#linenum35">CloneVisitor</a>(), null);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum171" class="linenum-cell" data-linenum="171" href="#linenum171"></a></td>

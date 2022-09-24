@@ -140,7 +140,7 @@
 </tr>
 <tr>
 <td><a id="linenum34" class="linenum-cell" data-linenum="34" href="#linenum34"></a></td>
-<td><pre>public final class AnyPredicate&lt;T&gt; extends <a class="type" href="/OdinCodeBrowserRepos/commons-collections_4.4/org/apache/commons/collections4/functors/AbstractQuantifierPredicate.html#linenum28">AbstractQuantifierPredicate</a>&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum957">T</a>&gt; {</pre></td>
+<td><pre>public final class AnyPredicate&lt;T&gt; extends <a class="type" href="/OdinCodeBrowserRepos/commons-collections_4.4/org/apache/commons/collections4/functors/AbstractQuantifierPredicate.html#linenum28">AbstractQuantifierPredicate</a>&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum1255">T</a>&gt; {</pre></td>
 </tr>
 <tr>
 <td><a id="linenum35" class="linenum-cell" data-linenum="35" href="#linenum35"></a></td>
@@ -212,11 +212,11 @@
 </tr>
 <tr>
 <td><a id="linenum52" class="linenum-cell" data-linenum="52" href="#linenum52"></a></td>
-<td><pre>    public static &lt;T&gt; <a class="type" href="/OdinCodeBrowserRepos/commons-collections_4.4/org/apache/commons/collections4/Predicate.html#linenum37">Predicate</a>&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum957">T</a>&gt; anyPredicate(final <a class="type" href="/OdinCodeBrowserRepos/commons-collections_4.4/org/apache/commons/collections4/Predicate.html#linenum37">Predicate</a>&lt;? super <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum957">T</a>&gt;... predicates) {</pre></td>
+<td><pre>    public static &lt;T&gt; <a class="type" href="/OdinCodeBrowserRepos/commons-collections_4.4/org/apache/commons/collections4/Predicate.html#linenum37">Predicate</a>&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum1255">T</a>&gt; anyPredicate(final <a class="type" href="/OdinCodeBrowserRepos/commons-collections_4.4/org/apache/commons/collections4/Predicate.html#linenum37">Predicate</a>&lt;? super <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum1255">T</a>&gt;... predicates) {</pre></td>
 </tr>
 <tr>
 <td><a id="linenum53" class="linenum-cell" data-linenum="53" href="#linenum53"></a></td>
-<td><pre>        FunctorUtils.<a class="type" href="/OdinCodeBrowserRepos/commons-collections_4.4/org/apache/commons/collections4/functors/FunctorUtils.html#linenum179">validate</a>(<a class="variable" href="#linenum52">predicates</a>);</pre></td>
+<td><pre>        FunctorUtils.<a class="type" href="/OdinCodeBrowserRepos/commons-collections_4.4/org/apache/commons/collections4/functors/FunctorUtils.html#linenum77">validate</a>(<a class="variable" href="#linenum52">predicates</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum54" class="linenum-cell" data-linenum="54" href="#linenum54"></a></td>
@@ -224,7 +224,7 @@
 </tr>
 <tr>
 <td><a id="linenum55" class="linenum-cell" data-linenum="55" href="#linenum55"></a></td>
-<td><pre>            return FalsePredicate.&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum957">T</a>&gt;<a class="type" href="/OdinCodeBrowserRepos/commons-collections_4.4/org/apache/commons/collections4/functors/FalsePredicate.html#linenum44">falsePredicate</a>();</pre></td>
+<td><pre>            return FalsePredicate.&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum1255">T</a>&gt;<a class="type" href="/OdinCodeBrowserRepos/commons-collections_4.4/org/apache/commons/collections4/functors/FalsePredicate.html#linenum44">falsePredicate</a>();</pre></td>
 </tr>
 <tr>
 <td><a id="linenum56" class="linenum-cell" data-linenum="56" href="#linenum56"></a></td>
@@ -236,7 +236,7 @@
 </tr>
 <tr>
 <td><a id="linenum58" class="linenum-cell" data-linenum="58" href="#linenum58"></a></td>
-<td><pre>            return (<a class="type" href="/OdinCodeBrowserRepos/commons-collections_4.4/org/apache/commons/collections4/Predicate.html#linenum37">Predicate</a>&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum957">T</a>&gt;) <a class="variable" href="#linenum52">predicates</a>[0];</pre></td>
+<td><pre>            return (<a class="type" href="/OdinCodeBrowserRepos/commons-collections_4.4/org/apache/commons/collections4/Predicate.html#linenum37">Predicate</a>&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum1255">T</a>&gt;) <a class="variable" href="#linenum52">predicates</a>[0];</pre></td>
 </tr>
 <tr>
 <td><a id="linenum59" class="linenum-cell" data-linenum="59" href="#linenum59"></a></td>
@@ -244,7 +244,7 @@
 </tr>
 <tr>
 <td><a id="linenum60" class="linenum-cell" data-linenum="60" href="#linenum60"></a></td>
-<td><pre>        return new <a class="type" href="/OdinCodeBrowserRepos/commons-collections_4.4/org/apache/commons/collections4/functors/AnyPredicate.html#linenum34">AnyPredicate</a>&lt;&gt;(FunctorUtils.<a class="type" href="/OdinCodeBrowserRepos/commons-collections_4.4/org/apache/commons/collections4/functors/FunctorUtils.html#linenum166">copy</a>(<a class="variable" href="#linenum52">predicates</a>));</pre></td>
+<td><pre>        return new <a class="type" href="/OdinCodeBrowserRepos/commons-collections_4.4/org/apache/commons/collections4/functors/AnyPredicate.html#linenum34">AnyPredicate</a>&lt;&gt;(FunctorUtils.<a class="type" href="/OdinCodeBrowserRepos/commons-collections_4.4/org/apache/commons/collections4/functors/FunctorUtils.html#linenum47">copy</a>(<a class="variable" href="#linenum52">predicates</a>));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum61" class="linenum-cell" data-linenum="61" href="#linenum61"></a></td>
@@ -308,11 +308,11 @@
 </tr>
 <tr>
 <td><a id="linenum76" class="linenum-cell" data-linenum="76" href="#linenum76"></a></td>
-<td><pre>    public static &lt;T&gt; <a class="type" href="/OdinCodeBrowserRepos/commons-collections_4.4/org/apache/commons/collections4/Predicate.html#linenum37">Predicate</a>&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum957">T</a>&gt; anyPredicate(final <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/util/Collection.html#linenum144">Collection</a>&lt;? extends <a class="type" href="/OdinCodeBrowserRepos/commons-collections_4.4/org/apache/commons/collections4/Predicate.html#linenum37">Predicate</a>&lt;? super <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum957">T</a>&gt;&gt; predicates) {</pre></td>
+<td><pre>    public static &lt;T&gt; <a class="type" href="/OdinCodeBrowserRepos/commons-collections_4.4/org/apache/commons/collections4/Predicate.html#linenum37">Predicate</a>&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum1255">T</a>&gt; anyPredicate(final <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/util/Collection.html#linenum144">Collection</a>&lt;? extends <a class="type" href="/OdinCodeBrowserRepos/commons-collections_4.4/org/apache/commons/collections4/Predicate.html#linenum37">Predicate</a>&lt;? super <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum1255">T</a>&gt;&gt; predicates) {</pre></td>
 </tr>
 <tr>
 <td><a id="linenum77" class="linenum-cell" data-linenum="77" href="#linenum77"></a></td>
-<td><pre>        final <a class="type" href="/OdinCodeBrowserRepos/commons-collections_4.4/org/apache/commons/collections4/Predicate.html#linenum37">Predicate</a>&lt;? super <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum957">T</a>&gt;[] preds = FunctorUtils.<a class="type" href="/OdinCodeBrowserRepos/commons-collections_4.4/org/apache/commons/collections4/functors/FunctorUtils.html#linenum179">validate</a>(<a class="variable" href="#linenum76">predicates</a>);</pre></td>
+<td><pre>        final <a class="type" href="/OdinCodeBrowserRepos/commons-collections_4.4/org/apache/commons/collections4/Predicate.html#linenum37">Predicate</a>&lt;? super <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum1255">T</a>&gt;[] preds = FunctorUtils.<a class="type" href="/OdinCodeBrowserRepos/commons-collections_4.4/org/apache/commons/collections4/functors/FunctorUtils.html#linenum77">validate</a>(<a class="variable" href="#linenum76">predicates</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum78" class="linenum-cell" data-linenum="78" href="#linenum78"></a></td>
@@ -320,7 +320,7 @@
 </tr>
 <tr>
 <td><a id="linenum79" class="linenum-cell" data-linenum="79" href="#linenum79"></a></td>
-<td><pre>            return FalsePredicate.&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum957">T</a>&gt;<a class="type" href="/OdinCodeBrowserRepos/commons-collections_4.4/org/apache/commons/collections4/functors/FalsePredicate.html#linenum44">falsePredicate</a>();</pre></td>
+<td><pre>            return FalsePredicate.&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum1255">T</a>&gt;<a class="type" href="/OdinCodeBrowserRepos/commons-collections_4.4/org/apache/commons/collections4/functors/FalsePredicate.html#linenum44">falsePredicate</a>();</pre></td>
 </tr>
 <tr>
 <td><a id="linenum80" class="linenum-cell" data-linenum="80" href="#linenum80"></a></td>
@@ -332,7 +332,7 @@
 </tr>
 <tr>
 <td><a id="linenum82" class="linenum-cell" data-linenum="82" href="#linenum82"></a></td>
-<td><pre>            return (<a class="type" href="/OdinCodeBrowserRepos/commons-collections_4.4/org/apache/commons/collections4/Predicate.html#linenum37">Predicate</a>&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum957">T</a>&gt;) <a class="variable" href="#linenum77">preds</a>[0];</pre></td>
+<td><pre>            return (<a class="type" href="/OdinCodeBrowserRepos/commons-collections_4.4/org/apache/commons/collections4/Predicate.html#linenum37">Predicate</a>&lt;<a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum1255">T</a>&gt;) <a class="variable" href="#linenum77">preds</a>[0];</pre></td>
 </tr>
 <tr>
 <td><a id="linenum83" class="linenum-cell" data-linenum="83" href="#linenum83"></a></td>
@@ -376,7 +376,7 @@
 </tr>
 <tr>
 <td><a id="linenum93" class="linenum-cell" data-linenum="93" href="#linenum93"></a></td>
-<td><pre>    public AnyPredicate(final <a class="type" href="/OdinCodeBrowserRepos/commons-collections_4.4/org/apache/commons/collections4/Predicate.html#linenum37">Predicate</a>&lt;? super <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum957">T</a>&gt;... predicates) {</pre></td>
+<td><pre>    public AnyPredicate(final <a class="type" href="/OdinCodeBrowserRepos/commons-collections_4.4/org/apache/commons/collections4/Predicate.html#linenum37">Predicate</a>&lt;? super <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum1255">T</a>&gt;... predicates) {</pre></td>
 </tr>
 <tr>
 <td><a id="linenum94" class="linenum-cell" data-linenum="94" href="#linenum94"></a></td>
@@ -420,11 +420,11 @@
 </tr>
 <tr>
 <td><a id="linenum104" class="linenum-cell" data-linenum="104" href="#linenum104"></a></td>
-<td><pre>    public boolean evaluate(final <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum957">T</a> object) {</pre></td>
+<td><pre>    public boolean evaluate(final <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum1255">T</a> object) {</pre></td>
 </tr>
 <tr>
 <td><a id="linenum105" class="linenum-cell" data-linenum="105" href="#linenum105"></a></td>
-<td><pre>        for (final <a class="type" href="/OdinCodeBrowserRepos/commons-collections_4.4/org/apache/commons/collections4/Predicate.html#linenum37">Predicate</a>&lt;? super <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum957">T</a>&gt; iPredicate : iPredicates) {</pre></td>
+<td><pre>        for (final <a class="type" href="/OdinCodeBrowserRepos/commons-collections_4.4/org/apache/commons/collections4/Predicate.html#linenum37">Predicate</a>&lt;? super <a class="type" href="https://josephmate.github.io/OdinCodeBrowserJdk8/java/lang/invoke/MethodHandleImpl.html#linenum1255">T</a>&gt; iPredicate : iPredicates) {</pre></td>
 </tr>
 <tr>
 <td><a id="linenum106" class="linenum-cell" data-linenum="106" href="#linenum106"></a></td>
